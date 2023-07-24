@@ -1,4 +1,4 @@
-import "./styles.css";
+import "../styles.css";
 
 const generateRandomScores = () => {
   const names = ["John Doe", "Jane Smith", "Mike Johnson", "Alice Lee", "Bob Brown"];
