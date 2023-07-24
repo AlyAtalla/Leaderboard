@@ -9,7 +9,6 @@ A simple leaderboard app built with HTML, CSS, and JavaScript, showcasing recent
 ## Table of Contents
 
 - [Features](#features)
-- [Demo](#demo)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -21,10 +20,6 @@ A simple leaderboard app built with HTML, CSS, and JavaScript, showcasing recent
 - Display recent scores in a table.
 - Allow users to refresh the scores table.
 - Provide a form to add user scores to the leaderboard.
-
-## Demo
-
-Add a link to the live demo or add a GIF to showcase your project.
 
 ## Getting Started
 
