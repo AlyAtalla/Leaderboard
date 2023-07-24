@@ -47,7 +47,7 @@ Copy code
 npm run start
 
 ## Usage
-Open the app in your web browser at http://localhost:3000.
+Open the app in your web browser at http://localhost:8080.
 View the "Recent Scores" table showing existing names and scores.
 Click the "Refresh" button to update the table with the latest scores (mock data).
 Use the "Add your score" section to enter your name and score.

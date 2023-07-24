@@ -2,7 +2,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
 
 module.exports = {
-  mode: "development", // or "production" depending on your environment
+  mode: "development",
   entry: "./src/js/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -32,7 +32,7 @@ module.exports = {
     }),
   ],
   devServer: {
-    contentBase: path.resolve(__dirname, "dist"),
-    port: 3000,
+    static: path.resolve(__dirname, "dist"),
+    port:  8080,
   },
 };
