@@ -6,14 +6,17 @@
 
 A simple leaderboard app built with HTML, CSS, and JavaScript, showcasing recent scores and allowing users to add their scores to the leaderboard.
 
-## Table of Contents
-
-- [Features](#features)
-- [Getting Started](#getting-started)
+## 📗 Table of Contents
+-[about the project](#about-the-project)
+- [Key Features](#features)
+- [💻Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgements](#acknowledgements)
+- [🙏Acknowledgements](#acknowledgements)
+
+## about the project
+A simple leaderboard app built with HTML, CSS, and JavaScript, showcasing recent scores and allowing users to add their scores to the leaderboard.
 
 ## Features
 
@@ -43,7 +46,7 @@ bash
 Copy code
 npm run start
 
-Usage
+## Usage
 Open the app in your web browser at http://localhost:3000.
 View the "Recent Scores" table showing existing names and scores.
 Click the "Refresh" button to update the table with the latest scores (mock data).
@@ -59,7 +62,8 @@ Push to the branch (git push origin your-feature).
 Open a pull request.
 Please make sure to update tests as appropriate.
 
-License
+## License
+
 This project is licensed under the MIT License.
 
 ## Issues
@@ -75,7 +79,7 @@ Your contributions, feedback, and bug reports are highly appreciated, and they w
 Thank you for using Leaderboard!
 
 
-Acknowledgements
+## Acknowledgements
 Thanks to Microverse for providing the inspiration and learning environment for this project.
 Aly Atalla's GitHub Profile
 Twitter Follow
