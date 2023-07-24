@@ -1,0 +1,41 @@
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.scores-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.scores-table th,
+.scores-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.input-name,
+.input-score {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.refresh-btn,
+.submit-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.refresh-btn {
+  margin-right: 10px;
+}
+
+.refresh-btn:hover,
+.submit-btn:hover {
+  background-color: #0056b3;
+}
