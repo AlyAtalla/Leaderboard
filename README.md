@@ -1,87 +1,136 @@
-# Leaderboard App
+### Hi there 👋
 
-![GitHub repo size](https://img.shields.io/github/repo-size/AlyAtalla/Leaderboard)
-![GitHub contributors](https://img.shields.io/github/contributors/AlyAtalla/Leaderboard)
-![GitHub stars](https://img.shields.io/github/stars/AlyAtalla/Leaderboard?style=social)
+<a name="readme-top"></a>
 
-A simple leaderboard app built with HTML, CSS, and JavaScript, showcasing recent scores and allowing users to add their scores to the leaderboard.
+<div align="center">
+  <img src="rsz_my-logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-## 📗 Table of Contents
--[about the project](#about-the-project)
-- [Key Features](#features)
-- [💻Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [🙏Acknowledgements](#acknowledgements)
+  <h3><b> Leaderboard </b></h3>
 
-## about the project
-A simple leaderboard app built with HTML, CSS, and JavaScript, showcasing recent scores and allowing users to add their scores to the leaderboard.
+</div>
 
-## Features
 
-- Display recent scores in a table.
-- Allow users to refresh the scores table.
-- Provide a form to add user scores to the leaderboard.
+# 📗 Table of Contents
 
-## Getting Started
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-To get a local copy up and running, follow these simple steps:
 
-1. Clone the repository and navigate into the project folder.
-   ```bash
-   git clone https://github.com/AlyAtalla/leaderboard
+# 📖 [About-me] <a name="about-me"></a>
 
-bash
-Copy code
+
+
+**[leDERBOARD]** is a leaderboard list app with webpack and npm.
+
+## 🛠 Built With <a name="built-with"></a>
+Visual Studio Code using HTML,CSS, and javascript Languages, webpack
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+
+  <summary>Personal portfolio</summary>
+  <ul>
+    <li><a href="https://html.com/">HTML</a></li>
+    <li><a href="https://css.com/">CSS</a></li>
+    <li><a hred= "http://javascript.com">Javascript</a></li>
+  </ul>
+</details>
+
+
+### Key Features <a name="key-features"></a>
+- [Feature1]: a table of names and scores.
+
+- [Feature2]:refresh button and submit button.
+
+[Feature3]: input fields to add names and scores
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Welcome to my Personal portfolio.
+
+### Prerequisites
+In order to run this project you need: to dowload it or clone it to your machine.
+
+### Setup
+
+
+1- Clone the repository to your local machine using the following command:
+
+git clone https://github.com/AlyAtalla/AlyAtalla
+
+2- Change into the project directory:
+
+cd [project directory]
+
+3- Install the required dependencies:
+
 npm install
-Build the project using Webpack.
-
-bash
-Copy code
-npm run build
-Start the development server.
-
-bash
-Copy code
-npm run start
-
-## Usage
-Open the app in your web browser at http://localhost:8080.
-View the "Recent Scores" table showing existing names and scores.
-Click the "Refresh" button to update the table with the latest scores (mock data).
-Use the "Add your score" section to enter your name and score.
-Click the "Submit" button to add your score to the leaderboard (no API calls in this version).
-Contributing
-Contributions are welcome! If you find any bugs or have suggestions for improvement, feel free to open an issue or create a pull request.
-
-Fork the project.
-Create your feature branch (git flow feature start your-feature).
-Commit your changes (git commit -m 'Add some feature').
-Push to the branch (git push origin your-feature).
-Open a pull request.
-Please make sure to update tests as appropriate.
-
-## License
-
-This project is licensed under the MIT License.
-
-## Issues
-
-If you encounter any bugs, have suggestions for improvements, or would like to request new features, please feel free to open an issue on the [Issues page](https://github.com/AlyAtalla/Leaderboard/issues).
-
-When opening a new issue, please provide detailed information about the problem or enhancement you are suggesting. This will help us understand the issue better and work on resolving it faster. You can use the provided issue templates to report a bug or request a feature.
-
-Before opening a new issue, please check the existing issues to see if a similar one has already been reported or is being worked on. If you find an existing issue that matches your concern, feel free to join the discussion and provide additional information or feedback.
-
-Your contributions, feedback, and bug reports are highly appreciated, and they will help make this project better for everyone.
-
-Thank you for using Leaderboard!
 
 
-## Acknowledgements
-Thanks to Microverse for providing the inspiration and learning environment for this project.
-Aly Atalla's GitHub Profile
-Twitter Follow
 
-Find me on LinkedIn: Aly Atalla
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 👥 Authors <a name="authors"></a>
+
+
+👤 **Aly-Atalla**
+
+- GitHub: [@githubhandle](https://github.com/AlyAtalla)
+- Twitter: [@twitterhandle](https://twitter.com/aliatalla93)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/aly-atalla-8b83a0231/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+[Feature1] :Add Javascript functionalities.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/AlyAtalla/Leaderboard/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, Star it ⭐️⭐️⭐️0
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Microverse - For providing an amazing platform to learn and collaborate with other developers.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
