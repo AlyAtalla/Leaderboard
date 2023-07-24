@@ -11,37 +11,64 @@ body {
   padding: 20px;
 }
 
+.board-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.score-board {
+  width: 50%;
+}
+
+.scoreTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scores-table {
+  width: 100%;
+  border: 2px solid #444;
+  padding: 20px;
+}
+
+.scores-table li {
+  padding: 10px 0;
+  list-style: none;
+  border-bottom: 2px solid #333;
+}
+
+.scores-table li:last-child {
+  border: none;
+}
+
+.score-form {
+  width: 40%;
+}
+
+.score-form button{
+  float: right;
+}
+
+.score-form form {
+  width: 100%;
+}
+
+input {
+  display: block;
+  width: 100%;  
+  margin-bottom: 20px;
+  padding: 4px 3px;
+}
+
 .header {
   font-size: 2rem;
   font-weight: bold;
-}
-
-.section {
-  margin-top: 20px;
 }
 
 .title {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 5px;
-}
-
-.scores-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.scores-table th,
-.scores-table td {
-  border: 1px solid #ccc;
-  padding: 8px;
-  text-align: center;
-}
-
-.input-name,
-.input-score {
-  margin-bottom: 10px;
-  padding: 5px;
 }
 
 .refresh-btn,
