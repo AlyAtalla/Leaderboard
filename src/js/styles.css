@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.board-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.score-board {
+  width: 50%;
+}
+
+.scoreTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scores-table {
+  width: 100%;
+  border: 2px solid #444;
+  padding: 20px;
+}
+
+.scores-table li {
+  padding: 10px 0;
+  list-style: none;
+  border-bottom: 2px solid #333;
+}
+
+.scores-table li:last-child {
+  border: none;
+}
+
+.score-form {
+  width: 40%;
+}
+
+.score-form button {
+  float: right;
+}
+
+.score-form form {
+  width: 100%;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 4px 3px;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.refresh-btn,
+.submit-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.refresh-btn {
+  margin-right: 10px;
+}
+
+.refresh-btn:hover,
+.submit-btn:hover {
+  background-color: #0056b3;
+}
