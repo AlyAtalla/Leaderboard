@@ -1,8 +1,8 @@
 # Leaderboard App
 
-![GitHub repo size](https://img.shields.io/github/repo-size/AlyAtalla/leaderboard)
-![GitHub contributors](https://img.shields.io/github/contributors/AlyAtalla/leaderboard-app)
-![GitHub stars](https://img.shields.io/github/stars/AlyAtalla/leaderboard?style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/AlyAtalla/Leaderboard)
+![GitHub contributors](https://img.shields.io/github/contributors/AlyAtalla/Leaderboard)
+![GitHub stars](https://img.shields.io/github/stars/AlyAtalla/Leaderboard?style=social)
 
 A simple leaderboard app built with HTML, CSS, and JavaScript, showcasing recent scores and allowing users to add their scores to the leaderboard.
 
@@ -66,6 +66,19 @@ Please make sure to update tests as appropriate.
 
 License
 This project is licensed under the MIT License.
+
+## Issues
+
+If you encounter any bugs, have suggestions for improvements, or would like to request new features, please feel free to open an issue on the [Issues page](https://github.com/AlyAtalla/Leaderboard/issues).
+
+When opening a new issue, please provide detailed information about the problem or enhancement you are suggesting. This will help us understand the issue better and work on resolving it faster. You can use the provided issue templates to report a bug or request a feature.
+
+Before opening a new issue, please check the existing issues to see if a similar one has already been reported or is being worked on. If you find an existing issue that matches your concern, feel free to join the discussion and provide additional information or feedback.
+
+Your contributions, feedback, and bug reports are highly appreciated, and they will help make this project better for everyone.
+
+Thank you for using Leaderboard!
+
 
 Acknowledgements
 Thanks to Microverse for providing the inspiration and learning environment for this project.
