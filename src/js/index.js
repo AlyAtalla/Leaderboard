@@ -1,3 +1,4 @@
+import './styles.css';
 const generateRandomScores = () => {
   const names = ['John Doe', 'Jane Smith', 'Mike Johnson', 'Alice Lee', 'Bob Brown'];
   const scores = Array.from({ length: names.length }, () => Math.floor(Math.random() * 100) + 1);
