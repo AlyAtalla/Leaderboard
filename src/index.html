@@ -1,38 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Leaderboard</title>
-  <link rel="stylesheet" href="./src/styles.css">
-</head>
-<body>
-  <div class="container">
-    <h1 class="header">Leaderboard</h1>
-    <div class="board-wrapper">
-      <div class="score-board">
-        <div class="scoreTitle">
-          <h2 class="title">Recent Scores</h2>
-          <button class="refresh-btn">Refresh</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard</title>
+    <script src="../dist/main.js"></script>
+  </head>
+  <body>
+    <section id="leaderboard-wrapper" class="container w-75">
+      <header class="container-fluid p-5">
+        <h1 id="leaderboard-title" class="my-4 fw-bold">
+          <span class="text-primary">My</span>Leaderboard
+        </h1>
+      </header>
+      <div class="d-flex justify-content-around flex-wrap">
+        <div id="scores">
+          <p>
+            <span class="sub-title"> Recent scores </span>
+            <span>
+              <button
+                type="button"
+                id="refresh"
+                class="bg-primary text-light border border-none rounded p-2"
+              >
+                Refresh
+              </button>
+            </span>
+          </p>
+
+          <ul id="scores-list" class="list-unstyled border rounded"></ul>
         </div>
-        <ul class="scores-table">
-          <li>Name: <span>100</span></li>
-          <li>Name: <span>100</span></li>
-          <li>Name: <span>100</span></li>
-          <li>Name: <span>100</span></li>
-          <li>Name: <span>100</span></li>
-        </ul>
-      </div>
-      <div class="score-form">
-        <div class="title">Add your score</div>
-        <form>
-          <input type="text" placeholder="Your name" />
-          <input type="number" placeholder="Your score" />
-          <button class="submit-btn">Submit</button>
+        <form id="input-fields" class="d-flex flex-column">
+          <h2 id="field-title">Add your score</h2>
+          <input
+            type="text"
+            placeholder="Your Name"
+            class="p-2 my-2 user-input rounded"
+            id="user-name"
+          />
+          <input
+            type="text"
+            placeholder="Your score"
+            class="p-2 my-2 user-input rounded"
+            id="user-score"
+          />
+          <button
+            type="submit"
+            class="d-block ms-auto w-50 bg-primary text-light border border-none rounded p-2"
+          >
+            Submit
+          </button>
         </form>
       </div>
-    </div>
-  </div>
-  <script src="./src/js/index.js" type="module"></script>
-</body>
+    </section>
+  </body>
 </html>

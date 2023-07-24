@@ -1,36 +1,66 @@
 import './styles.css';
 
-const generateRandomScores = () => {
-  const names = ['John Doe', 'Jane Smith', 'Mike Johnson', 'Alice Lee', 'Bob Brown'];
-  const scores = Array.from({ length: names.length }, () => Math.floor(Math.random() * 100) + 1);
+const API_BASE_URL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api';
+const GAME_ID = 'Zl4d7IVkemOTTVg2fUdz';
 
-  return names.map((name, index) => ({ name, score: scores[index] }));
-};
+const populateList = (scores) => {
+  const list = document.querySelector('.scores-list');
+  list.innerHTML = '';
 
-const populateTable = () => {
-  const data = generateRandomScores();
-
-  const tableBody = document.querySelector('.scores-table tbody');
-  tableBody.innerHTML = '';
-
-  data.forEach((item) => {
-    const row = document.createElement('tr');
-    row.innerHTML = `
-      <td>${item.name}</td>
+  scores.forEach((item) => {
+    const listItem = document.createElement('tr'); // Use <tr> instead of <li> for table rows
+    listItem.innerHTML = `
+      <td>${item.user}</td>
       <td>${item.score}</td>
     `;
-    tableBody.appendChild(row);
+    list.appendChild(listItem);
   });
 };
 
-document.querySelector('.refresh-btn').addEventListener('click', () => {
-  populateTable();
+const fetchScores = async () => {
+  try {
+    const response = await fetch(`${API_BASE_URL}/games/${GAME_ID}/scores`);
+    const data = await response.json();
+    return data.result; // Access the 'result' property of the response
+  } catch (error) {
+    console.error('Error fetching scores:', error);
+    return [];
+  }
+};
+
+document.querySelector('.refresh-btn').addEventListener('click', async () => {
+  const scores = await fetchScores();
+  populateList(scores);
 });
 
-document.querySelector('.submit-btn').addEventListener('click', () => {
+document.querySelector('.submit-btn').addEventListener('click', async () => {
   const name = document.querySelector('.input-name').value;
   const score = document.querySelector('.input-score').value;
-  console.log('Name:', name, 'Score:', score);
+
+  try {
+    const response = await fetch(`${API_BASE_URL}/games/${GAME_ID}/scores`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ user: name, score: Number(score) }),
+    });
+
+    const data = await response.json();
+    console.log('Score submitted successfully:', data);
+
+    // Append the submitted data to the list
+    const scores = await fetchScores(); // Fetch the updated scores from the API
+    populateList(scores);
+
+    // Clear input fields after submitting
+    document.querySelector('.input-name').value = '';
+    document.querySelector('.input-score').value = '';
+  } catch (error) {
+    console.error('Error submitting score:', error);
+  }
 });
 
-populateTable();
+// Initially fetch and populate the list with empty scores
+const initialScores = [];
+populateList(initialScores);
