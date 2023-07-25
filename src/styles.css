@@ -1,25 +1,31 @@
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600;800&display=swap');
 
+/* Apply box-sizing to all elements */
 *,
 ::after,
 ::before {
   box-sizing: border-box;
 }
 
+/* Set the font family to 'Source Code Pro' for the entire body */
 body {
   font-family: 'Source Code Pro', monospace !important;
 }
 
+/* Increase the font size of the .sub-title class to 40px */
 .sub-title {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 600;
 }
 
+/* Adjust the background color for even list items to a slightly darker shade */
 ul li:nth-child(even) {
-  background: rgb(242, 241, 241);
+  background: rgb(25, 176, 207);
 }
 
+/* Increase the width of the .name class to 120px */
 .name {
   display: inline-block;
-  width: 100px;
+  width: 120px;
 }
